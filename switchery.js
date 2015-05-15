@@ -32,7 +32,7 @@ var defaults = {
 };
 
 if (process.browser != null) {
-  require('./switchery.css');
+  require('./switchery.css!');
 }
 
 /**
