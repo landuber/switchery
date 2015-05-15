@@ -16,6 +16,8 @@
  * Expose `Switchery`.
  */
 
+require('./switchery.css!');
+
 module.exports = Switchery;
 
 /**
@@ -31,7 +33,6 @@ var defaults = {
   , speed    : '0.1s'
 };
 
-require('./switchery.css!');
 
 /**
  * Create Switchery object.
